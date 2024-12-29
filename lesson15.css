@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+section {
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Roboto", serif;
+}
+header{
+    margin-bottom: 75px;
+}
+
+main {
+    width: 85%;
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    
+}
+
+article {
+   width: calc(100%/3);
+    border-radius: 30px;
+    background: white;
+    padding: 45px 55px;
+    transition: all .3s;
+}
+article:hover{
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+h2,h4{
+    font-family: "Oswald", serif;
+}
